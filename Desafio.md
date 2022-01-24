@@ -2,6 +2,6 @@
 
 ## Desafio Digital Innovation One
 
-- Criando seu Primeiro Repositório no GitHub Para Compartilhar Seu Progresso
+- Criando Primeiro Repositório no GitHub Para Compartilhar meu Progresso
 
 # ٩(♡ε♡ )۶ 
