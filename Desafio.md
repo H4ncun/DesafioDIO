@@ -1,4 +1,4 @@
-#( ͡° ͜ʖ ͡°) <h1>
+( ͡° ͜ʖ ͡°) <h1>
 
 Desafio Digital Innovation One <h2>
 
