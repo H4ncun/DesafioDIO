@@ -1,9 +1,17 @@
 
 public class Emprestimos {
+	
+	private static double valorFinal(double taxa, double valor) {
+		
+		double valorFinal = valor + (valor * taxa);
+		
+		return valorFinal;
+		}
+	
 
 	public static void calculaEmprestimo(double valor, int parcelas) {
 		
-	
+			
 		switch(parcelas) {
 		
 		case 1:
@@ -14,81 +22,66 @@ public class Emprestimos {
 		
 		case 2:
 			
-			double taxa2 = 0.50;
+			double taxa2 = 0.50;		
+					
 			
-			double valorFinal = valor + (valor * taxa2);		
-			
-			System.out.print("\n Valor a ser pago é: " + valorFinal + "\n");
+			System.out.print("\n Valor a ser pago é: " + valorFinal(taxa2, valor) + "\n");
 			
 			break;
 		
 		case 3:
 			
-			double taxa3 = 1.00;
+			double taxa3 = 1.00;						
 			
-			double valorFinal3 = valor + (valor * taxa3);		
-			
-			System.out.print("\n Valor a ser pago é: " + valorFinal3 + "\n");
+			System.out.print("\n Valor a ser pago é: " + valorFinal(taxa3, valor) + "\n");
 			
 			break;
 			
 		case 4:
 			
-			double taxa4 = 1.50;
+			double taxa4 = 1.50;					
 			
-			double valorFinal4 = valor + (valor * taxa4);		
-			
-			System.out.print("\n Valor a ser pago é: " + valorFinal4 + "\n");
+			System.out.print("\n Valor a ser pago é: " + valorFinal(taxa4, valor)+ "\n");
 			
 			break;
 		
 		case 5:
 			
-			double taxa5 = 2.00;
+			double taxa5 = 2.00;					
 			
-			double valorFinal5 = valor + (valor * taxa5);		
-			
-			System.out.print("\n Valor a ser pago é: " + valorFinal5 + "\n");
+			System.out.print("\n Valor a ser pago é: " + valorFinal(taxa5, valor) + "\n");
 			
 			break;
 			
 		case 6:
 			
-			double taxa6 = 2.50;
+			double taxa6 = 2.50;			
 			
-			double valorFinal6 = valor + (valor * taxa6);		
-			
-			System.out.print("\n Valor a ser pago é: " + valorFinal6 + "\n");
+			System.out.print("\n Valor a ser pago é: " + valorFinal(taxa6, valor) + "\n");
 			
 			break;
 			
 		case 7:
 			
-			double taxa7 = 3.00;
+			double taxa7 = 3.00;					
 			
-			double valorFinal7 = valor + (valor * taxa7);		
-			
-			System.out.print("\n Valor a ser pago é: " + valorFinal7 + "\n");
+			System.out.print("\n Valor a ser pago é: " + valorFinal(taxa7, valor) + "\n");
 			
 			break;
 			
 		case 8:
 			
-			double taxa8 = 3.50;
+			double taxa8 = 3.50;				
 			
-			double valorFinal8 = valor + (valor * taxa8);		
-			
-			System.out.print("\n Valor a ser pago é: " + valorFinal8 + "\n");
+			System.out.print("\n Valor a ser pago é: " + valorFinal(taxa8, valor) + "\n");
 			
 			break;
 			
 		case 9:
 			
-			double taxa9 = 4.00;
+			double taxa9 = 4.00;					
 			
-			double valorFinal9 = valor + (valor * taxa9);		
-			
-			System.out.print("\n Valor a ser pago é: " + valorFinal9 + "\n");
+			System.out.print("\n Valor a ser pago é: " + valorFinal(taxa9, valor)+ "\n");
 			
 			break;
 		
