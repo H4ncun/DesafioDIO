@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Programa Referente a aula Entendendo Métodos Java
 ## Codigo na Branch Master
 ### Exercicio 1
